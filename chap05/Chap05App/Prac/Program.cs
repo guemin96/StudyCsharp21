@@ -10,47 +10,19 @@ namespace Prac
     {
         static void Main(string[] args)
         {
-            while (true)
+            /*for (int i = 0; i <= 4; i++)
             {
-                Console.WriteLine("값을 입력하세요.");
-                string line = Console.ReadLine();
-
-                if (line == "quit") break;
-
-                string day = line;
-
-                switch (day)
+                for (int j = 0; j <= 4-i ; j++)
                 {
-                    case "월요일":
-                        Console.WriteLine("월요일입니다.");
-                    break;
-                    case "화요일":
-                        Console.WriteLine("화요일입니다.");
-                        break;
-                    case "수요일":
-                        Console.WriteLine("수요일입니다.");
-                        break;
-                    case "목요일":
-                        Console.WriteLine("목요일입니다.");
-                        break;
-                    case "금요일":
-                        Console.WriteLine("금요일입니다.");
-                        break;
-                    case "토요일":
-                        Console.WriteLine("토요일입니다.");
-                        break;
-                    case "일요일":
-                        Console.WriteLine("일요일입니다.");
-                        break;
-                    default:
-                        Console.WriteLine("요일이 아닙니다.");
-                        break;
+                    Console.Write(" ");
                 }
-                //Console.WriteLine(line);
-
-
+                for (int j = 0; j < i+1; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine(" ");
+*/
             }
-            Console.WriteLine("계산 종료");
         }
     }
 }
