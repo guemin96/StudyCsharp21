@@ -10,7 +10,7 @@ namespace Prac
     {
         static void Main(string[] args)
         {
-            /*for (int i = 0; i <= 4; i++)
+            for (int i = 0; i < 4; i++)
             {
                 for (int j = 0; j <= 4-i ; j++)
                 {
@@ -18,10 +18,10 @@ namespace Prac
                 }
                 for (int j = 0; j < i+1; j++)
                 {
-                    Console.Write("*");
+                    Console.Write("*");//줄바꿈하지않고 계속해서 입력
                 }
-                Console.WriteLine(" ");
-*/
+                Console.WriteLine(" ");//줄바꿈해줌!!!!!!!! 개 중요
+
             }
         }
     }
