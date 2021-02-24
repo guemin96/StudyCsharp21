@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap07App", "Chap07App\Chap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcTestApp", "CalcTestApp\CalcTestApp.csproj", "{F9AAB0B8-A567-4634-9E42-E18B6EE314AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticTestApp", "StaticTestApp\StaticTestApp.csproj", "{8AF10BD1-4274-4E2A-AA30-58AEA9DE4376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticTestApp", "StaticTestApp\StaticTestApp.csproj", "{8AF10BD1-4274-4E2A-AA30-58AEA9DE4376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierTsetApp", "AccessModifierTsetApp\AccessModifierTsetApp.csproj", "{DDB2057C-CCB3-4FD2-ABCF-BB7206BC32C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8AF10BD1-4274-4E2A-AA30-58AEA9DE4376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AF10BD1-4274-4E2A-AA30-58AEA9DE4376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AF10BD1-4274-4E2A-AA30-58AEA9DE4376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB2057C-CCB3-4FD2-ABCF-BB7206BC32C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB2057C-CCB3-4FD2-ABCF-BB7206BC32C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB2057C-CCB3-4FD2-ABCF-BB7206BC32C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB2057C-CCB3-4FD2-ABCF-BB7206BC32C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
