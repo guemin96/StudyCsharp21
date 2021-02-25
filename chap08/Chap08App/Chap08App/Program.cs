@@ -27,7 +27,7 @@ namespace Chap08App
         }
     }
 
-    class ClimateLogger 
+    class ClimateLogger
     {
         private ILogger logger;
         public ClimateLogger(ILogger logger)//climateLogger 클래스를 사용할 때 인수 값으로는 ILogger를 사용한 클래스만 넣을 수 있다.()안에 ILogger logger이 들어 있기 때문에 
