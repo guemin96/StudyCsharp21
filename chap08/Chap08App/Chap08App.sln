@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap08App", "Chap08App\Chap08App.csproj", "{70A276B7-F05F-4406-A55C-0BF280112DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultinterfaceApp", "MultinterfaceApp\MultinterfaceApp.csproj", "{113E1058-AA87-40EB-B87F-0EBD8AE5C45A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70A276B7-F05F-4406-A55C-0BF280112DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A276B7-F05F-4406-A55C-0BF280112DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A276B7-F05F-4406-A55C-0BF280112DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A276B7-F05F-4406-A55C-0BF280112DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113E1058-AA87-40EB-B87F-0EBD8AE5C45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113E1058-AA87-40EB-B87F-0EBD8AE5C45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113E1058-AA87-40EB-B87F-0EBD8AE5C45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113E1058-AA87-40EB-B87F-0EBD8AE5C45A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65583401-5352-47BA-BD6C-3BEA17CCBEBA}
+	EndGlobalSection
+EndGlobal
