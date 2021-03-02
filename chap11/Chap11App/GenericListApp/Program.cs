@@ -38,7 +38,7 @@ namespace GenericListApp
             list.Remove(2);
             foreach (var item in list)
             {
-                Console.WriteLine(item);ㅗ
+                Console.WriteLine(item);
 
             }
             List<string> strList = new List<string>() { "일", "이", "삼", "사" };
