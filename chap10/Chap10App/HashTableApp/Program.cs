@@ -39,7 +39,7 @@ namespace HashTableApp
             }
 
             Console.WriteLine($"{list}");
-            Console.WriteLine(list2);
+            Console.WriteLine(list2[2]);
             Console.WriteLine(list3);
         }
     }
