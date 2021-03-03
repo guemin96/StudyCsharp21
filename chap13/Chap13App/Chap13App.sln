@@ -7,9 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap13App", "Chap13App\Chap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfirmWinApp", "ConfirmWinApp\ConfirmWinApp.csproj", "{584A7E3F-847F-470C-B102-641310F225ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallbackTestApp", "CallbackTestApp\CallbackTestApp.csproj", "{5B70455E-0A3A-4D29-9BB9-75C653386DD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CallbackTestApp", "CallbackTestApp\CallbackTestApp.csproj", "{5B70455E-0A3A-4D29-9BB9-75C653386DD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChainApp", "DelegateChainApp\DelegateChainApp.csproj", "{2860B840-CF60-4951-8C34-480CEF289E59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateChainApp", "DelegateChainApp\DelegateChainApp.csproj", "{2860B840-CF60-4951-8C34-480CEF289E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChain2App", "DelegateChain2App\DelegateChain2App.csproj", "{437A6EBC-177B-4EB0-B5C3-E0DEE1DBFD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingEventApp", "UsingEventApp\UsingEventApp.csproj", "{FEA63DFC-2CD6-4B4F-9731-D390446BBFBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{2860B840-CF60-4951-8C34-480CEF289E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2860B840-CF60-4951-8C34-480CEF289E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2860B840-CF60-4951-8C34-480CEF289E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437A6EBC-177B-4EB0-B5C3-E0DEE1DBFD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437A6EBC-177B-4EB0-B5C3-E0DEE1DBFD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437A6EBC-177B-4EB0-B5C3-E0DEE1DBFD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437A6EBC-177B-4EB0-B5C3-E0DEE1DBFD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA63DFC-2CD6-4B4F-9731-D390446BBFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA63DFC-2CD6-4B4F-9731-D390446BBFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA63DFC-2CD6-4B4F-9731-D390446BBFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA63DFC-2CD6-4B4F-9731-D390446BBFBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
