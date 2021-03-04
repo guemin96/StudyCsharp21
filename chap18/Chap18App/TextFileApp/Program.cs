@@ -33,7 +33,8 @@ namespace TextFileApp
             }
             finally
             {
-
+                if (sw != null)
+                
                 sw.Close();
             }
 
@@ -42,11 +43,25 @@ namespace TextFileApp
             sr = new StreamReader(new FileStream(filePath, FileMode.Open,FileAccess.Read));
             Console.WriteLine($"File size : {sr.BaseStream.Length} bytes");
 
-            while (sr.EndOfStream == false)//파일의 제일 마지막 false가 되면 마지막
+
+            try
             {
-                Console.WriteLine(sr.ReadLine());
+                while (sr.EndOfStream == false)//파일의 제일 마지막 false가 되면 마지막
+                {
+                    Console.WriteLine(sr.ReadLine());
+                }
             }
-            sr.Close();
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"파일 읽기 예외발생 : {ex.Message}");
+            }
+            
+            finally
+            {
+                sr.Close();
+            }
+            
 
         }
     }
