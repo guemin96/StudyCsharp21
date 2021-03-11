@@ -38,7 +38,7 @@ PKNU C# 학습 리포지토리
 3. 캡슐화
 4. 연산자 오버로딩
 5. 상속
-<kbd>![상속 클래스 ](chap07(상속)/사진/상속 형식 및 값.PNG)<br></kbd>
+<kbd>![상속 클래스 ](https://github.com/guemin96/StudyCsharp21/blob/main/chap07(%EC%83%81%EC%86%8D)/%EC%82%AC%EC%A7%84/%EC%83%81%EC%86%8D%20%ED%98%95%EC%8B%9D%20%EB%B0%8F%20%EA%B0%92.PNG)<br></kbd>
 
 6. 다형성
 7. 템플릿
