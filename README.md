@@ -8,8 +8,8 @@ PKNU C# 학습 리포지토리
 ### 기초프로그래밍
 1. 상수와 데이터 출력
 2. 변수와 데이터 입력
-3. 연산자
-  [상세보기](https://github.com/guemin96/StudyCsharp21/tree/main/chap03/Chap03APP)
+3. 연산자<br>
+  [상세보기](https://github.com/guemin96/StudyCsharp21/tree/main/chap03/Chap03APP)<br>
 4. 선택문
 5. 반복문
 6. 함수
