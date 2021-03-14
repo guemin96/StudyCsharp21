@@ -5,9 +5,8 @@ PKNU C# 학습 리포지토리
 
 ## Basic C#
 
-### 기초프로그래밍
-1. 상수와 데이터 출력
-2. 변수와 데이터 입력
+### 개인적으로 중요한 부분 정리
+
 3. 연산자<br>
   [상세보기](https://github.com/guemin96/StudyCsharp21/tree/main/chap03/Chap03APP)<br>
 4. 선택문
@@ -39,6 +38,12 @@ PKNU C# 학습 리포지토리
 3. 캡슐화
 4. 연산자 오버로딩
 5. 상속
+  -상속에 관한 부분이 헷갈리는 경우
+    -형식에서 자식은 부모가 될 수 있다
+    -형식안에 있는 메소드를 사용하기 위해서는 그 형식이어야만 한다. (예시 밑에 사진) 
+    
+<kbd>![상속 클래스 ](https://github.com/guemin96/StudyCsharp21/blob/main/chap07(%EC%83%81%EC%86%8D)/%EC%82%AC%EC%A7%84/%EC%83%81%EC%86%8D%20%ED%98%95%EC%8B%9D%20%EB%B0%8F%20%EA%B0%92.PNG)<br></kbd>
+
 6. 다형성
 7. 템플릿
 8. 예외 처리
