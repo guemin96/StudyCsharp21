@@ -11,7 +11,7 @@ PKNU C# 학습 리포지토리
 <br>
 
 #### 2. 상속
-   - 상속에 관한 부분이 헷갈리는 경우
+##### 상속에 관한 부분이 헷갈리는 경우
    - 형식에서 자식은 부모가 될 수 있다
    - 형식안에 있는 메소드를 사용하기 위해서는 그 형식이어야만 한다. (예시 밑에 사진) 
     
@@ -23,8 +23,17 @@ PKNU C# 학습 리포지토리
   - 인스턴스 생성 불가(참조는 가능)
   - 인터페이스끼리의 상속은 구현이라고 칭한다.
   - 인터페이스를 구현했을경우에는 무조건 사용해야한다.
-  <kbd>![상속 클래스 ](https://github.com/guemin96/StudyCsharp21/blob/main/chap08(%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.PNG)<br></kbd>
+  <kbd>![인터페이스 ](https://github.com/guemin96/StudyCsharp21/blob/main/chap08(%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)/%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4.PNG)<br></kbd>
 
+#### 4. 속성
+  - private 속성을 가진 변수를 다른 클래스에서 사용하기 위해 만들어진 방법
+  - get;set;을 통해 불러온다
+  - get : 그 값을 불러오는 역할
+  - set : 그 값을 제어하는 역할
+<kbd>![속성(기본식) ](https://github.com/guemin96/StudyCsharp21/blob/main/chap09/get%20set%20%EC%82%AC%EC%A7%84.PNG)<br></kbd>
+  - get,set의 정석 <br>
+<kbd>![속성(간단식) ](https://github.com/guemin96/StudyCsharp21/blob/main/chap09/get%20set%20%EA%B0%84%EB%8B%A8%EC%8B%9D%201.PNG)<br></kbd>
+<kbd>![속성(간단식) ](https://github.com/guemin96/StudyCsharp21/blob/main/chap09/get%20set%20%EA%B0%84%EB%8B%A8%EC%8B%9D%202.PNG)<br></kbd>
 6. 다형성
 7. 템플릿
 8. 예외 처리
