@@ -43,6 +43,14 @@ PKNU C# 학습 리포지토리
 
 <kbd>![해쉬 테이블 ](https://github.com/guemin96/StudyCsharp21/blob/main/chap10/HashTable.PNG)<br></kbd>
 
+#### 6. 일반화 메소드
+  - 형식만 다른 메소드를 하나로 합쳐 일반화를 시키는 메소드를 말한다
+  - 데이터 형식이 사용된 부분을 T 기호로 치환
+  - <>를 이용해 형식을 매개 변수로 넘겨준다.
+  - 메소드 호출 시 <> 사이의 T 대신 형식의 이름을 입렵
+
+<kbd>![일반화 메소드 ](https://github.com/guemin96/StudyCsharp21/blob/main/chap10/%EC%9D%BC%EB%B0%98%ED%99%94%20T%EB%B0%B0%EC%97%B4.PNG)<br></kbd>
+
 
 6. 다형성
 7. 템플릿
