@@ -38,6 +38,7 @@ PKNU C# 학습 리포지토리
 
 #### 5. 해쉬테이블
   - 해쉬 테이블은 인덱스를 가지고 있는 배열이 아니라 지정해준 값을 가지고 있는 배열이기 때문에 foreach를 사용하지 못한다.
+  - foreach를 사용하기 위해서는 DictionaryEntry item in ht를 써줘야한다(정렬을 하는 배열이 아니기 때문에 랜덤으로 가져오게 된다.)
   - 사이즈의 제약이 없어 원하는 만큼 넣을 수 있다.
 
 <kbd>![해쉬 테이블 ](https://github.com/guemin96/StudyCsharp21/blob/main/chap10/HashTable.PNG)<br></kbd>
