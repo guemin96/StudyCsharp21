@@ -52,6 +52,107 @@ PKNU C# 학습 리포지토리
 <kbd>![일반화 메소드 ](https://github.com/guemin96/StudyCsharp21/blob/main/chap10/%EC%9D%BC%EB%B0%98%ED%99%94%20T%EB%B0%B0%EC%97%B4.PNG)<br></kbd>
 
 
+#### 7. 오버플로우 (OverFlow)와 언더플로우 (Underflow)
+  - 데이터가 흘러 넘쳤을 때: 데이터 형식의 최대값을 넘어가는 데이터를 저장 할 때
+  - 언더플로우: 최저 값 보다 작은 데이터를 저장할 때   
+
+``` c# 
+using System;
+
+namespace OverflowTestApp
+{
+    public partial class Form1_Load : Form
+    {
+        public Form1_Load()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load_Load(object sender, EventArgs e)
+        {
+                int flow = 2147483647;
+                textBox1.Text = Convert.ToString(flow + 1);
+        }
+    }
+}
+
+```
+#### 8. 연산자
+  - 산술 연산자
+     - +, -, *, /, %
+  - 할당 연산자
+    - =, +=, -=, *=, /=, %=
+  - 증감 연산자
+    - ++, --
+  - 논리 연산자
+    - && (And), || (Or), | (Not)
+  - 관계/비교 연산자
+    - <, >, ==, !=, >=, <=
+  - 비트 연산자
+    - & (And), | (Or), ^ (XOr)
+  - Shift 연산자
+    - , <<
+    - 값을 이동시킬 수 있는 연산
+  - 조건 연산자
+    - ?, ??
+
+#####<연산자 코드>
+```
+namespace StringConcatApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("숫자 더하기");
+            var p2 = 456; // 지역 변수로 만듦 [숫자 : int]
+            Console.WriteLine(123+p2); // 579 [int + int] = int
+            Console.WriteLine("123" + p2); // [string + int] = string / 문자열이 하나라도 있으면 문자열 결합으로 바뀜
+            Console.WriteLine($"123{p2}"); // [string] / 위와 결과값 같음 지금 방식이 훨씬 편함 (C# 6.0 이후 문자열 만드는 방법)
+            Console.WriteLine("123" + "456"); //[string + string] / 123456 [문자 : string]
+
+            // 관계연산자
+            int a = 30, b = 30;
+            Console.WriteLine( a > b); //false (true,false 화면 출력시, 대문자로 바뀜)
+            Console.WriteLine(a < b); // false
+            Console.WriteLine( a >= b ); // true
+            Console.WriteLine( a<=b ); //true
+            Console.WriteLine( a == b ); //true
+            Console.WriteLine(a != b); //false ( ! 는 '아니다'는 의미) 
+
+            //논리 연산자
+            Console.WriteLine("논리 연산자");
+            Console.WriteLine( 10 > 9 && a > 0 );//true ('&&' 는 '그리고' 의미)
+            Console.WriteLine( a > b || b > 0); // true ( || 는 '또는' 의미)
+            Console.WriteLine(!(a < b)); //true
+
+            // 조건연산자 단항 if 문을 대체 가능
+            int c = 30;
+            string result = c == 30 ? "삼십" : "삼십아님"; // = > 조건 연산자 써볼게 
+
+            /*string result;
+            if (c == 30)
+                result = "삼십";
+            else
+                result = "삼십아님";*/
+
+            Console.WriteLine(result);
+
+            //병합연산자 (NULL 조건부 연산자)
+
+            Console.WriteLine("NULL 병합연산자");
+            int? d = null;
+            Console.WriteLine($"{d}");
+
+          
+            
+
+        }
+    }
+}
+
+```
+
 6. 다형성
 7. 템플릿
 8. 예외 처리
